@@ -1,0 +1,83 @@
+#Assignment on HTML
+
+#Write a simple proram in HTML that displays the heading "HTML defines the content and structure if your website" on the web brouser
+#code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML defines the content and structure of your website</h1>
+</body>
+</html>
+
+#Explain the purpose of comments in HTML and provide an example how to use comments in an HTML document?
+#Ans: Comments in HTML helps to add notes in our document.these are extra pieces of code that are not read by the broser and its
+for documentation .It works as an aid in the html document.
+#Example: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--this is the comment section and we can write any comment-->
+    <!-- <p>My name is Subham</p> -->
+</body>
+</html>
+
+#Write an HTML program that includes a heading, a paragraph of text,a horizontal line, and a line break.Arrange these elements to create
+ a simple webpage layout.
+#Code: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+</head>
+<body>
+    <h2>ABOUT INDIAN CULTURE</h2>
+    <hr>
+    <p>Indian culture is the heritage of social norms and technologies that originated in or are associated with the ethno-linguistically diverse India, pertaining to the Indian subcontinent until 1947 and the Republic of India post-1947.<br> The term also applies beyond India to countries and cultures whose histories are strongly connected to India by immigration, colonisation, or influence, particularly in South Asia and Southeast. India's languages, religions, dance, music, architecture, food, and customs differ from place to place within the country.</p>
+</body>
+</html>
+
+#Write a short note on Tag and element with an example.
+#Ans: HTML uses a system of "tags" to define the structure and layout of web pages. Tags are the building blocks of 
+HTML documents and consist of angle brackets enclosing specific keywords. These tags provide instructions to 
+web browsers on how to display the content.An HTML tag is composed of an opening tag and, in some cases, a closing tag. 
+The opening tag starts with the less-than symbol (<), followed by the tag name, and ends with a greater-than symbol (>). 
+The closing tag is similar, but it also includes a forward slash (/) before the tag name.
+Elements:An "element," on the other hand, consists of the opening tag, content, and closing tag that define a particular 
+section of content on a webpage.
+#Example: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--the below opening and closing tag of p shows the element-->
+    <p>This is a paragraph element.</p>
+</body>
+</html>
+
+#What is the DOCTYPE Declaration in HTML?
+#Ans: We start the file with `<!DOCTYPE html>`. It tells the browser what type of document to 
+expect; in this case it is an HTML document
+ The <DOCTYPE> declaration represents the document type, and helps browsers to display web pages 
+correctly
+ It must appear only once, at the top of the page(before HTML tag)
+ The <DOCTYPE>  declaration is not case sensitive. We can write any of the following, it does not give any 
+error.
